@@ -40,7 +40,8 @@
 
 ### 2026-10-22 — older qualitative-research skill retired from Claude
 - Owner: «да ссылку на старый скилл сними - можешь только из него взять что то новое чего нет у нас». Removed the
-  `~/.claude/skills/qualitative-research` link; the original folder in `~/.agents/skills` is untouched.
+  `~/.claude/skills/qualitative-research` link; then, on the owner's «давай», moved the original folder out of
+  Codex's `~/.agents/skills` to `~/.agents/_archived-skills/qualitative-research-retired-2026-10-22` (unchanged, restorable).
 - Taken over, all marked «вывод, не из курса» except the course-named «Карта стейкхолдеров»: three-level coding for
   several transcripts, the need/barrier insight form, persona frequency and key quote, the extended «Как мы можем»
   form, a stakeholder grouping, «моменты истины» on the emotion curve, line of interaction and physical evidence rows
