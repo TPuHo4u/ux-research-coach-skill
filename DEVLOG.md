@@ -31,3 +31,9 @@
 ### Gaps and owner decisions
 - A separately installed older skill `qualitative-research` (~/.agents/skills, linked into ~/.claude/skills) claims the
   same scope; whether to retire it is the owner's call.
+
+### Publication
+- 2026-10-22: public repository https://github.com/TPuHo4u/ux-research-coach-skill (owner's word: «делай репозиторий
+  для скилла коммит пуш»). Commits use the GitHub noreply address because the account blocks pushes that expose the
+  private e-mail. Linked from the exam-practice ux-design card, production `dpl_6g3yLFRz29zaqsZAiQQygGkLmhfu`.
+  Local install: symlinks in `~/.claude/skills` and `~/.agents/skills`.
