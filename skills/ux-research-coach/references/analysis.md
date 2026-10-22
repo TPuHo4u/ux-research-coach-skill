@@ -37,7 +37,12 @@ Put on stickers **everything** heard, learnt, seen and found inspiring — this 
    questions, missing functionality; confusion and the company's opaque actions; pain points. Workarounds the client
    built (screenshots, notes, a personal contact) show a barrier he has learnt to overcome.
 4. **Quotes.** Keep the client's own words, verbatim, with the step they belong to.
-5. **Status of conclusions.** Interviews give insights and **problem hypotheses** («гипотезы проблем») about the
+5. **Several transcripts — coding** (вывод, не из курса; a standard qualitative-analysis technique that structures the
+   выгрузка знаний): **open coding** — mark the key fragments and give each a short code (theme), keeping verbatim
+   quotes; **axial coding** — group the codes into categories and look for links and cause-and-effect chains between
+   them; **selective coding** — find the central theme of the scenario and state the insights. Keep for every
+   category which respondents it comes from.
+6. **Status of conclusions.** Interviews give insights and **problem hypotheses** («гипотезы проблем») about the
    scenario; two respondents of one audience already let you draft a typical scenario; the project's norm is at least
    five interviews. The problem hypotheses are confirmed or refuted by a survey — without it a problem may turn out
    to be a fantasy or one person's problem.
@@ -54,7 +59,9 @@ A good insight is:
 - **Запоминающийся** — short, capacious, easy to share.
 
 A useful written form (вывод, не из курса): «[Кто] [что делает / чувствует], потому что [причина, найденная в
-интервью] — [что из этого следует для сценария]». Each insight points to the quotes and steps it rests on.
+интервью] — [что из этого следует для сценария]». When the insight is about an unmet need, another form works:
+«[Кто] нуждается в [потребность], потому что [причина], но сейчас [барьер]» (вывод, не из курса). Each insight points
+to the quotes and steps it rests on.
 
 The course contrast: an insight is not a hypothesis and not a pain point. Also not an insight (вывод, не из курса): a
 solution («нужно push-уведомление»), a guess about the company's internals, a remark on research method, a statistic.
@@ -63,7 +70,8 @@ solution («нужно push-уведомление»), a guess about the company
 
 Key characteristics and needs of the client archetype: возраст, род занятий, семейное положение; сегмент / архетип
 в контексте задачи; цели и задачи в рамках сценария; потребности и проблемы; впечатление от исследуемого сервиса;
-other criteria that may affect the scenario. The course calls this whole list «атрибутивы персоны»; in the narrow
+other criteria that may affect the scenario. Useful additions (вывод, не из курса): how often the persona uses the
+service and one key quote in her own words. The course calls this whole list «атрибутивы персоны»; in the narrow
 sense атрибутивы are the traits that set the persona apart and whose change changes the scenario (`interviews.md` §2).
 
 ## 6. Reports
@@ -111,7 +119,9 @@ solved, which digital metrics measure the result.
 | «Как повысить доходность на 25%?» | from the bank's metric: drift to business |
 | «Автоматизировать проверку документов» | a ready solution, not a question |
 
-Course example: «Как мы можем помочь КМ ускорить процесс согласования договоров?». Too general a question fits any
+Course example: «Как мы можем помочь КМ ускорить процесс согласования договоров?». An extended form (вывод, не из
+курса) keeps the same base: «Как мы можем [действие] для [пользователь], чтобы [результат для него], учитывая
+[ограничение]?». Too general a question fits any
 project. Solving the client's problem solves the business problem too.
 
 **Roles around a project.**
@@ -122,6 +132,10 @@ project. Solving the client's problem solves the business problem too.
 | Пользователь | goes through the scenario; employees are users too |
 | Стейкхолдер | everyone involved in the scenario on the client's and the company's side; found and involved; a client manager whose behaviour is changed is a stakeholder |
 | Владелец процесса | responsible for the process («кто и за что отвечает» is found during immersion); an executor is not the owner |
+
+**Карта стейкхолдеров** — one of the Фокусировка methods: everyone involved in the scenario. A practical grouping
+(вывод, не из курса): on the client's side; the company's front line; the company's back office; external
+participants (partners, regulators, contractors). For each — role in the scenario and what changes for them.
 
 ## 8. Five key errors of a project
 

@@ -52,9 +52,10 @@ employees' regulations are not CJM — they are Service Blueprint.
 (a curve). Header: имя (persona), проект, дата. Understanding which task the client tries to solve at each point is a
 huge potential for changing the scenario. A «Process ownership» row («кто и за что отвечает») links to the blueprint.
 
-**Emotions** are there to find the **critical failure points**: points with negative emotions are marked as improvement
-zones. Emotions are **not averaged** — an average hides exactly those points — and the team does not run to ideas:
-first find the cause of the failure. Course example: an application for contract approval goes to the archive after
+**Emotions** are there to find the **critical failure points**: points with negative emotions are marked as
+improvement zones. Emotions are **not averaged** — an average hides exactly those points — and the team does not run
+to ideas: first find the cause of the failure. Mark the peaks too, and the «моменты истины» — points where the client
+decides whether to trust the service or leave (вывод, не из курса). Course example: an application for contract approval goes to the archive after
 15 days and is filed again (four times) — emotions at the bottom.
 
 **One scenario.** Several similar but different paths (site, app, branch) mixed in one map make it «размытый»: CJM,
@@ -88,6 +89,10 @@ result of several teams' work.
 |---|---|
 | Above the line of visibility | status texts on the screen, the employee's answers on the line — the client's experience and the front line |
 | Behind the line of visibility | the queue of applications by the regulation, the systems used, other units' actions |
+
+Two standard blueprint rows not in the course templates (вывод, не из курса): a **line of interaction** between the
+client's actions and the front line, and **physical evidence** — what the client holds or sees at each step (screen,
+SMS, letter, document, card, sign in the branch).
 
 The «общая схема сервиса» includes: the IT tools of the point; the processes that produce the result; instructions,
 scripts, policies; processes that affect the employee (training, onboarding).

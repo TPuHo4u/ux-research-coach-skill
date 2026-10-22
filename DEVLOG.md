@@ -37,3 +37,13 @@
   для скилла коммит пуш»). Commits use the GitHub noreply address because the account blocks pushes that expose the
   private e-mail. Linked from the exam-practice ux-design card, production `dpl_6g3yLFRz29zaqsZAiQQygGkLmhfu`.
   Local install: symlinks in `~/.claude/skills` and `~/.agents/skills`.
+
+### 2026-10-22 — older qualitative-research skill retired from Claude
+- Owner: «да ссылку на старый скилл сними - можешь только из него взять что то новое чего нет у нас». Removed the
+  `~/.claude/skills/qualitative-research` link; the original folder in `~/.agents/skills` is untouched.
+- Taken over, all marked «вывод, не из курса» except the course-named «Карта стейкхолдеров»: three-level coding for
+  several transcripts, the need/barrier insight form, persona frequency and key quote, the extended «Как мы можем»
+  form, a stakeholder grouping, «моменты истины» on the emotion curve, line of interaction and physical evidence rows
+  in the blueprint. Not taken: «возможности для улучшения» in the CJM (fixes before Фокусировка), a −3…+3 emotion
+  scale (invented precision), «3+ respondents = trend» (spread is the survey's job).
+- `bash dev/check.sh`: GATE: PASS (SKILL.md 3,000 words). Additive reference notes; scenarios not re-run.

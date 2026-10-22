@@ -111,7 +111,8 @@ Output, in order:
    CJM and the survey.
 **Several transcripts** (may exceed 800 words): a short card per respondent (attributes, three to five facts with
 quotes); one merged path with «у кого (из N с данными)»; a pattern × respondent matrix; differences pointing to
-separate personas; cross-interview insights. Counts, not percentages (вывод, не из курса).
+separate personas; cross-interview insights; coding (`references/analysis.md` §3). Counts, not percentages
+(вывод, не из курса).
 
 ## Mode 3 — CJM
 
@@ -143,8 +144,8 @@ Output, in order:
    (including what he sees and does about it, e.g. «звонит менеджеру»), never the company's internal stages.
 2. **Схема** (rows top to bottom): путь клиента (что делает, что видит, эмоция) → фронт-лайн (кто и что делает) →
    **линия видимости** → back-office: действия сотрудников других подразделений | регламенты и сроки | ИТ-системы и
-   статусы | поддерживающие процессы (инструкции, скрипты, обучение). One row is one process under the client's step
-   it affects. Origin marks where it matters.
+   статусы | поддерживающие процессы (инструкции, скрипты, обучение); physical evidence optional
+   (`references/journey.md` §3). One row is one process under the client's step it affects.
 3. **Где может теряться время или ломаться впечатление:** hypotheses only (hand-offs, queues, a status not updated
    or not shown, documents asked again, a step without an owner), each with how to check it.
 4. **Кого и о чём спросить:** internal experts by unit, the questions, what to observe; a regulation's deadline is a
