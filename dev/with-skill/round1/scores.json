@@ -1,0 +1,266 @@
+{
+ "S6": {
+  "scenario": "S6 — Индексы и «как мы можем»",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": true,
+    "evidence": "\"30 : 50 = 60%\", \"12 : 50 = 24%\", \"8 : 50 = 16%\"; \"**NPS = 60% − 16% = 44%.** Нейтралы в расчёт не входят.\"; \"Откуда 84%: 60% + 24% = 84% ... Это доля «не критиков», а не NPS: нейтралов прибавили к промоутерам\"; the table labels 7–8 as \"Нейтралы\"."
+   },
+   {
+    "id": "C2",
+    "met": true,
+    "evidence": "\"**NPS** — готовность порекомендовать отделение.\" / \"**CSI** — удовлетворённость по многим факторам (атрибутам: продукт, скорость, сотрудники, компания, цена).\" It keeps them apart: \"Что именно скорость тянет вниз NPS, из этих цифр не следует — это гипотеза.\""
+   },
+   {
+    "id": "C3",
+    "met": true,
+    "evidence": "Focus: \"**Фокус — фактор с самым большим падением.** По сообщению это скорость\". Not 100%: \"**Цель — реальная, не «100%» и не «84%»**\". Cause: \"глубинные интервью с клиентами, поставившими низкую оценку скорости, и наблюдение в отделении\". Obstacles: \"**Препятствия** — гипотезы, каждую проверить\". Plan with timing: \"неделя 1 — ...; недели 2–4 — интервью и наблюдение; неделя 5 — ...\", plus \"План улучшений с датами составляется после того, как причина найдена\". Re-measure: \"Через квартал — повторный замер NPS и CSI с теми же формулировками.\" The dates are relative weeks and marked [допущение], which is acceptable."
+   },
+   {
+    "id": "C4",
+    "met": true,
+    "evidence": "Problem statement with a person and a consequence: \"**[гипотеза]** Клиент отделения, чей визит занимает больше времени, чем он ожидал ..., ставит низкую оценку скорости и не готов рекомендовать отделение.\" The HMW is built on the client's task, not on the metric: \"**Как мы можем помочь клиенту отделения решить свою задачу за время, которое он считает нормальным?**\". Weakness: the consequence is stated in metric terms (a low score, no recommendation) rather than as a loss to the client, but the criterion as written is satisfied."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "\"Промоутеры (60%) и детракторы (16%, 8 человек) смотрятся отдельно, одним числом их не заменить. Прошлого квартала в сообщении нет, динамика NPS неизвестна [?].\"; \"Одно и то же NPS может скрывать меньше промоутеров и меньше детракторов («разбухла серединка»).\"; follow-up question \"Каким был NPS и разбивка по группам в прошлом квартале?\""
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "There are no references to slides, webinars, a lecturer, workbook pages, recording timestamps or «по курсу Сбер…». Borderline: the answer does mention the course as a provenance label, \"Не из курса: при 50 ответах ... (вывод, не из курса)\", but this says something is not from the course and does not say where in the course anything comes from."
+   }
+  ],
+  "notable_errors": [
+   "No arithmetic errors: 60/24/16%, 60−16=44, 60+24=84=100−16 and '1 ответ = 2 процентных пункта' (1/50) are all correct.",
+   "Imprecise wording: \"Нейтралы в расчёт не входят\" — neutrals stay in the denominator (the shares are taken from 50). The answer's own line for the boss, \"не считаем ни в плюс, ни в минус\", is the accurate version.",
+   "The problem statement's consequence repeats the metric (\"ставит низкую оценку скорости и не готов рекомендовать отделение\") instead of naming the client's own loss (time, a missed task). This is partly circular for a 'from metric to client' step, though it is labelled [гипотеза].",
+   "An internal skill reference leaks to the user: \"подготовка интервью (режим 1)\" means nothing to the recipient.",
+   "A redundant, course-referencing provenance label: \"Не из курса: ... (вывод, не из курса)\" — the same label twice in one sentence, and it implicitly frames everything else as course material.",
+   "Questionable sampling claim: \"для количественного вывода нужно не меньше 5% клиентов отделения [?]\". Adequacy depends on absolute sample size and margin of error, not on a share of the population. It is flagged [?] and matches the course heuristic, so this is minor.",
+   "No opinion or future questions in a guide, no solutions before the cause is found (obstacles are labelled hypotheses, and the improvement plan is deferred until the cause is found), no CJM content, and no invented data presented as fact (the assumptions about the other CSI attributes and the dates are marked [допущение]/[?])."
+  ]
+ },
+ "S4": {
+  "scenario": "S4 — Service Blueprint для точки провала",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": true,
+    "evidence": "Row order top to bottom: \"**Путь клиента** (делает / видит / эмоция)\" → \"**Фронт-лайн** (кто и что делает)\" → \"**ЛИНИЯ ВИДИМОСТИ**\" → \"**Back-office: действия сотрудников других подразделений**\" → \"**Регламенты и сроки**\" → \"**ИТ-системы и статусы**\" → \"**Поддерживающие процессы** (инструкции, скрипты, обучение)\". Front-line cells name actor and action: \"Менеджер принимает и оформляет заявку [допущение]\", \"Менеджер принимает звонок [дано]\". Support row filled where relevant: \"Скрипт на вопрос «где моя заявка» [?]\", \"Обучение менеджера работе со статусами [?]\"."
+   },
+   {
+    "id": "C2",
+    "met": true,
+    "evidence": "Columns are the client's steps: \"| Слой | 1. Подача заявки | 2. Статус «на рассмотрении» | 3. Ожидание (до 10 дней) | 4. Звонок менеджеру | 5. «Не знаю, где заявка» |\". Rows are layer types, not departments. Process cells sit under the affected step, e.g. \"Передача заявки в андеррайтинг; кто и как [?]\" under Подача, \"Андеррайтинг — 3 рабочих дня [дано]; факт до 10 дней [дано]\" under Ожидание, \"Как менеджер выясняет статус: кому пишет или звонит [?]\" under Звонок менеджеру."
+   },
+   {
+    "id": "C3",
+    "met": true,
+    "evidence": "(a) Built from internal experts/observation: \"Обновить схему после интервью с внутренними экспертами\"; \"Наблюдать: путь одной реальной заявки от подачи до решения и то, как менеджер ищет её по звонку клиента.\" (b) Whom/what: section 4 table, e.g. \"Андеррайтеры | Как заявка попадает к ним, как выглядит очередь, что делают, если не хватает документов\"; \"Владелец регламента и обучения менеджеров | Откуда взялись 3 дня\". (c) Regulation as claim: \"Срок 3 рабочих дня в регламенте — утверждение, его нужно сверить с фактической практикой.\" No single framing sentence says 'blueprint is built from interviews', but all three parts are present verbatim."
+   },
+   {
+    "id": "C4",
+    "met": true,
+    "evidence": "Every cell tagged [дано]/[допущение]/[вывод]/[?], e.g. \"Ждёт; не видит, что с заявкой [допущение: статус один, без этапов]\"; \"причина — гипотеза\". Section 3: \"Только гипотезы, у каждой способ проверки.\" Covers hand-offs (\"Передача между подразделениями без владельца\"), queues (\"Очередь на андеррайтинг\"), missing status update (\"Статус не обновляется и не показывает этап\"), each with \"Проверка: ...\"."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "Output is a filled draft table with explicit gaps plus hypotheses and interview plan; next step is problem focusing, not solutions: \"затем Фокусировка (главная проблема и вопрос «Как мы можем…»)\". The only solution-like line is explicitly parked and unevaluated: \"Идеи на потом (не оценивали): показывать клиенту и менеджеру один и тот же этап заявки и честный срок.\" — a deferral, not a recommendation."
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "No slide, webinar, lecturer, workbook page, timestamp or «по курсу Сбер…» citation. The course is mentioned only in a disclosure line \"Не из курса: типичные места потерь времени (часть 3)...\", where \"(часть 3)\" refers to the answer's own section 3, not a course location; \"Фокусировка\" is a term, not a citation."
+   }
+  ],
+  "notable_errors": [
+   "Mis-tag, inference presented as given: \"Андеррайтинг рассматривает заявку [дано]\" in the 'Ожидание' column. The prompt says only that underwriting exists and has a 3-day regulation. That it is in progress during this client step is an assumption, so it should be tagged [допущение]. Minor.",
+   "Structural inconsistency: the back-office row is titled \"действия сотрудников других подразделений\" but contains \"Как менеджер выясняет статус: кому пишет или звонит [?]\". The manager is the front-line actor, not another department. Minor; C2 still holds.",
+   "Note, not an error: client step 6 (\"Получает решение или звонит снова — вне схемы, пока [?]\") is listed but left out of the table on purpose.",
+   "Checked and correct (not an error): \"Даже если «10 дней» календарные, это 6–8 рабочих\". 10 consecutive calendar days contain 2–4 weekend days, so 6–8 working days. The section 4 interview prompts are behavioural and concrete (\"Попросить показать на реальной заявке\"), with no opinion or future questions."
+  ]
+ },
+ "S2": {
+  "scenario": "S2 — Разбор расшифровки: отчёт и инсайты (answer: /Users/dmitrijkrasuk/Downloads/Project/ux-research-coach-skill/dev/with-skill/S2.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": true,
+    "evidence": "Section 2 is a step table with the header \"| Шаг | Действия | Эмоции (её слова) | Потребность | Люди | Контекст и продукт |\". Its rows run from \"1. Карта истекает, приложение предлагает перевыпуск\" to \"9. Пользование картой\", plus a row \"После всего\". Every dimension is there for every touchpoint. Where the transcript says nothing, the cell is marked \"—\" or \"[?]\" (for example \"8. Получение карты | не описано [?]\"). These are honest gaps in a thin transcript, not missing dimensions."
+   },
+   {
+    "id": "C2",
+    "met": true,
+    "evidence": "Section 3 has a separate table \"| Говорит | Делает | Чувствует |\", for example \"Делает: поехала по статусу; теперь перепроверяет через горячую линию и менеджера; сделала скриншот реквизитов\". It flags the contradiction directly: \"«В целом всё нормально» против бешенства, недоверия и новой двойной проверки перед поездкой.\" It also flags a second one: \"«Нормально» про карту сейчас против скриншота реквизитов «на всякий случай»\"."
+   },
+   {
+    "id": "C3",
+    "met": true,
+    "evidence": "Section 4 quotes her words verbatim and puts the four target words in bold: \"была в **бешенстве**\", \"потратила полдня **впустую**. И что **никто не извинился**\", \"Теперь я статусу **не верю**.\" It adds \"полчаса **висела**\"."
+   },
+   {
+    "id": "C4",
+    "met": true,
+    "evidence": "Each insight is written as \"who does X, because Y → what it means\". Insight 1: \"Клиентка больше не едет по статусу «готово к выдаче», потому что первый такой статус отправил её за картой, которой в отделении не было → ... поездку запускает подтверждение человека.\" Insight 2: \"в бешенстве не из-за срока, а потому что цену ошибки заплатила сама\". The \"→\" parts state what the finding means, not solutions or product hypotheses. None of the insights restates a pain like «неудобно ждать»."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "It treats the material as hypotheses: \"Это гипотезы одной респондентки, пока их не повторят другие интервью той же персоны.\" It names the next step: \"ещё минимум четыре интервью с той же персоной (всего не меньше пяти), затем опрос, насколько распространён сбой статуса и как клиенты его проверяют.\" It parks the solution ideas: \"Идеи на потом (не оценивали): подтверждать наличие карты в отделении до статуса «готово»; признавать ошибку и извиняться при сбое.\""
+   },
+   {
+    "id": "CX",
+    "met": false,
+    "evidence": "The last line reads: \"Не из курса: формулировка инсайта по схеме «кто делает, потому что причина → что значит», порядок частей отчёта.\"",
+    "failure_pattern": "The answer ends with a line about what comes from the course and what does not, even though the user's message never mentions a course. The line names no slide, webinar, lecturer, page or timestamp. But its only meaning is \"everything else here comes from the course\", which is the negative form of «по курсу…», an example the criterion lists as a violation. Anyone reading the report learns from it that the report is based on a course, which is what CX is meant to prevent. Under \"partial = not met\" an ambiguous footnote like this does not clearly satisfy CX. The skill author can either remove the provenance line from the output or change CX to allow a negative-provenance line. That is their decision, not the evaluator's."
+   }
+  ],
+  "notable_errors": [
+   "Insight 3 overstates the case: \"Она проверяет через личного менеджера, а не через горячую линию\". The transcript, and the answer's own step 6 (\"звонит на горячую линию, «полчаса висела»\"), show that she called the hotline first and only then the manager. The headline wording contradicts the step table. The reason it gives for the hotline failing is inferred, and only the note \"Что ответила линия, в материале нет [?]\" admits that.",
+   "The Эмоции column contains quotes that are not emotions. Row 7 has \"(«Без неё я бы, наверное, ещё раз три звонила»)\" and row 9 has \"«на всякий случай, вдруг опять что-то»\". This is a small mix-up of what she said with what she felt, inside the step table itself.",
+   "Insight 4 states the reason for the screenshot as fact, without a [?] marker: \"потому что после одного неудачного опыта ждёт повторения\". The answer's own open questions include \"чего именно она ждёт, делая скриншот\", so this reason is an inference that has not been checked.",
+   "Not errors (checked): \"Срок «5 рабочих дней» и «через неделю» совпадают по времени\" is correct. \"Гипотеза о внутренней кухне\" sits outside the step table, is labelled as a hypothesis and comes with a way to check it, so it does not put internal systems into the journey. The answer contains no opinion or future questions and no solutions before the problem is understood."
+  ]
+ },
+ "S1": {
+  "scenario": "S1",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": true,
+    "evidence": "Section 1 «План исследования» comes before the guide and covers every part. Scenario: «Оформление кредитной карты в мобильном приложении глазами клиента». Persona with attributes: «Допущение: клиент, который сам решил оформить кредитную карту, уже пользуется мобильным приложением банка и бросил начатую заявку на середине». Recruitment: «Основные: клиенты, подходящие под эти признаки. Минимум один экстремальный пользователь… Внутренние эксперты». Count: «Не меньше пяти на одну персону.» Roles: «Ведущий; протоколист-наблюдатель». Format: «Полноценная глубинная беседа, не звонок на 10–15 минут и не анкета.» Setting: «В привычной для клиента обстановке, с его телефоном и приложением.» The video-call line in the footer is a labelled fallback, not the plan."
+   },
+   {
+    "id": "C2",
+    "met": true,
+    "evidence": "The guide's blocks follow the required order one to one: «Блок 1. Разогрев» → «Блок 2. Фокусировка» → «Блок 3. История последнего случая (самый длинный; идём шаг за шагом)» → «Блок 4. Проблематика и идеи (только здесь, после истории)» → «Блок 5. Завершение»."
+   },
+   {
+    "id": "C3",
+    "met": false,
+    "evidence": "Most main questions ask about experience («Расскажите, как вы в последний раз начали оформлять карту…», «Покажите на телефоне…», «Почему вы сделали так?»), and «что улучшить» is placed late and marked «Дополнительно». But Block 3 has «Правильно ли я понимаю, что…?», which the answer itself labels «Единственный закрытый вопрос: проверка понимания после рассказа». Block 4 has «Расскажите, как вы в тот раз справлялись с тем, что было непонятно или неудобно.»",
+    "failure_pattern": "The criterion forbids closed check questions and leading questions, with no exception for checking understanding. The guide's deepest block contains a closed check question that the answer itself labels as closed, and Block 4 has a question that assumes the respondent had difficulties («было непонятно или неудобно»), which leads the respondent. Partial compliance counts as not met."
+   },
+   {
+    "id": "C4",
+    "met": true,
+    "evidence": "Depth techniques: «Покажи мне / нарисуй путь.» and «Расскажи историю и «почему?» несколько раз.» What to capture: the note-taker «делит записи на «говорит / делает / чувствует»; отмечает эмоционально окрашенные слова»."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "Section 4: «Вы хотите узнать, что не устраивает и что улучшить, — это мнение. Клиент рассказывает опыт: что делал, видел и чувствовал на каждом шаге; причины и улучшения выводит команда после разбора.» This is a short paragraph of three brief sentences, within the intent of «one or two lines»."
+   },
+   {
+    "id": "CX",
+    "met": false,
+    "evidence": "There are no slides, webinars, lecturer, workbook pages or timestamps. However, the closing line begins «Не из курса: согласие на запись и хранение записи; …».",
+    "failure_pattern": "The criterion's last example, «по курсу Сбер…», shows that a general attribution to the course is banned, not only a specific location. Marking five items «Не из курса» tells the reader that everything else comes from the course, which is the same attribution stated in the negative. Borderline: if «cite where» is read as requiring a specific location in the course, this line would pass. Under the strict reading (partial = not met) it fails."
+   }
+  ],
+  "notable_errors": [
+   "Methodological: «Меньше пяти — выводы останутся гипотезами.» This implies that five or more interviews give conclusions rather than hypotheses. In fact, qualitative findings stay hypotheses about the scenario until a quantitative check, whatever the number of interviews.",
+   "Closed question in the main story block: «Правильно ли я понимаю, что…?», which the answer labels «Единственный закрытый вопрос: проверка понимания». Respondents tend to agree with a paraphrase, so it can confirm the interviewer's own reading.",
+   "Leading presupposition in a guide question: «Расскажите, как вы в тот раз справлялись с тем, что было непонятно или неудобно.» It assumes there were difficulties.",
+   "The persona is mixed up with scenario variation: «Если шаги остановки или поводы окажутся принципиально разными, это разные персоны.» The step where someone stopped is a fact about their path, not a persona attribute.",
+   "Minor: «Расскажите, как вы тогда представляли себе путь от кнопки „Оформить“ до карты в руках.» It asks the respondent to reconstruct a past expectation, which hindsight colours. This is closer to opinion than to recalled experience.",
+   "Minor: «впечатление = факт − ожидание» is stated as a formula in the «Зачем» column. It is a heuristic presented as a given."
+  ]
+ },
+ "S3": {
+  "scenario": "S3 — CJM по заметкам интервью (answer: /Users/dmitrijkrasuk/Downloads/Project/ux-research-coach-skill/dev/with-skill/S3.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": true,
+    "evidence": "Persona: «владелец малого бизнеса, который сам открывает расчётный счёт (кофейня, шиномонтаж, студия маникюра)»; missing attributes flagged, not invented: «Атрибутивы (...возраст, форма бизнеса, опыт с банками): в заметках нет, [?]». One scenario: «от выбора банка до работающего счёта с приёмом оплаты картой (эквайринг)». Mixed paths named: «Заметки смешивают три пути: Аня — сайт → звонок менеджера → офис; Олег — сайт (заявку бросил) → отделение; Ира — приложение → почта менеджеру». Handling: «одна карта на сценарий, в ячейках путь каждого респондента, каналы названы в строке «Канал»». The table matches this description. The added note «(по дорожке на канал)» does not match it (see notable errors), but the main handling is stated and delivered."
+   },
+   {
+    "id": "C2",
+    "met": true,
+    "evidence": "Three periods in order as column headers: «**До:** 1. Выбор банка и тарифа» → «**Во время:** 2. Заявка … 5. Открытие счёта» → «**После:** 6. Подключение эквайринга». Touchpoints span channels before and after the visit, not only staff contact: «Аня — личная рекомендация, вне банка», «сайт», «приложение, затем почта», «телефон», «офис», «отделение». Expectation is flagged as missing, not invented: «Ожидания в заметках не названы ни у кого, [?]». Impression is handled in the text: «впечатление = факт − ожидание», with the 3/5 discussed. Reading applied: I took the parentheticals (expectation/impression) as describing each period, not as required rows. Under a stricter reading this would be borderline, because the 'После' column is a further service step (acquiring) and the impression is not a column."
+   },
+   {
+    "id": "C3",
+    "met": false,
+    "evidence": "Per point: rows «Канал», «Что клиент делает», «Задача клиента», «Эмоции» with +/− and quotes. Failure points marked: «**Точка 3, документы.** Аня — «злилась»», «**Точка 6, эквайринг.** Аня — «никто не знает, кто за это отвечает»». No averaging, and the reason is given: «Среднее «3 из 5» прячет именно эти точки: эмоции не усредняются». But the silence is demoted: «**Барьер без записанной эмоции** (пока не провал, [?]): 2 дня тишины (Аня)».",
+    "failure_pattern": "The criterion lists silence after the application as a critical failure point. The answer explicitly does not mark it as one («пока не провал»). It ties «злилась» only to the repeated request («про 2 дня тишины эмоция не названа»), so one of the three required failure points is missing."
+   },
+   {
+    "id": "C4",
+    "met": false,
+    "evidence": "Section 4 «Вынесено в Service Blueprint» parks «Регламент: открытие счёта 1 день», «CRM: у Иры статус не обновился», document intake in the app, and others. CRM is kept out of the table. But the CJM table itself, point 5, contains the regulation: «Ира — на 5-й день (по регламенту 1 день, со слов менеджера)».",
+    "failure_pattern": "A regulation (an internal norm passed on by the manager) sits inside a CJM cell, not only in the Blueprint/parking list. The criterion requires regulations out of the CJM itself."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "No solutions are proposed. Causes are framed as hypotheses to check, e.g. «гипотеза, что пакет не дошёл; проверка — спросить менеджера». Next step: «причины точек 3 и 6 выяснить с внутренними экспертами (менеджер по открытию счёта, владельцы приложения и CRM, подключение эквайринга)». Draft status: «Карта — черновик на стикерах: ячейки «нет данных» и [?] обновляем с каждым новым интервью; трёх респондентов мало, чтобы судить о распространённости»."
+   },
+   {
+    "id": "CX",
+    "met": false,
+    "evidence": "Final line: «Не из курса: пометки происхождения ячеек и дорожка на канал при смешанных путях.»",
+    "failure_pattern": "The answer adds a note on what came from the course. Saying which parts are 'not from the course' implies everything else is from it. That is a general source attribution, like the «по курсу Сбер…» example in CX, even though no slide, page or timestamp is cited. The user never mentioned a course."
+   }
+  ],
+  "notable_errors": [
+   "Regulation inside the CJM table (point 5): «по регламенту 1 день, со слов менеджера» — an internal norm in a client-journey cell, even though the answer also parks it in section 4.",
+   "The silence after the application is not counted as a failure point: «пока не провал, [?]: 2 дня тишины (Аня)» — «злилась» is tied only to the repeated document request, although in the notes it follows the silence-then-repeat sequence.",
+   "Respondents with no data are counted as negatives. «Документы приходится передавать второй раз у 2 из 3», but Олег is «нет данных» for that step, so it should be 2 of 2 with data. «1 из 3 с негативной эмоцией» for acquiring, but Ира is «нет данных», so it should be 1 of 2.",
+   "The stated method does not match the table: it claims «(по дорожке на канал)», but the table has one «Канал» row with all respondents inside each cell and no per-channel lanes. The final line repeats the claim: «дорожка на канал при смешанных путях».",
+   "Period label contradicts the answer's own scenario. The scenario is «до работающего счёта с приёмом оплаты картой (эквайринг)», which puts acquiring inside the service, yet the column is «**После:** 6. Подключение эквайринга». The after-service impression (3/5) appears only in prose, not in the map.",
+   "Internal skill jargon leaks into the answer: «Режим 4: причины точек 3 и 6 выяснить…».",
+   "Course provenance appears in the answer: «Не из курса: …»."
+  ]
+ },
+ "S5": {
+  "scenario": "S5 — Анкета для проверки гипотез (with-skill answer /Users/dmitrijkrasuk/Downloads/Project/ux-research-coach-skill/dev/with-skill/S5.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": true,
+    "evidence": "Line 3: \"Опрос проверяет, подтверждаются ли три гипотезы интервью и насколько они распространены ... а не измеряет удовлетворённость или лояльность\". Line 9: \"NPS эти гипотезы не проверяет ... он стоит отдельным последним вопросом со стандартной формулировкой, считается отдельно и не используется как довод за или против гипотез.\" Q12 text: \"Какова вероятность Вашей рекомендации компании другу или коллеге?\" This is a recognizable standard NPS question. Caveat: the scale is 1–10, not the standard 0–10 (see notable_errors). The criterion asks for the standard wording, and the wording is standard."
+   },
+   {
+    "id": "C2",
+    "met": true,
+    "evidence": "Block 1 \"Отсев\": \"Подавали ли вы заявку на кредит в [название банка] за последние 6 месяцев?\", with \"Нет → завершить опрос\". Block 2 \"Опыт\": Q2 counts applications (\"1 / 2 / 3 и более\"), Q3 asks the channel, Q4 asks how long the wait for a decision was (\"В день подачи ... Через 8 дней и позже / Решения не получил(а)\"). Block 3 \"Гипотезы\" has labeled subsections \"Гипотеза 1\", \"Гипотеза 2\" and \"Гипотеза 3\" (Q5–Q11)."
+   },
+   {
+    "id": "C3",
+    "met": true,
+    "evidence": "Frequencies are intervals: Q7 \"Ни разу / 1 раз / 2–3 раза / 4 раза и более / Не помню\"; Q4 and Q10 use day intervals (\"Через 4–7 дней\"). Wording is neutral and factual, e.g. \"Сколько раз вы звонили в банк по поводу этой заявки?\" and \"Чем закончилась эта заявка?\". Every categorical question has «Другое (укажите)» (Q3, Q6, Q8, Q9). The only 1–10 scale is the NPS item, which is separate; no hypothesis question uses a satisfaction scale."
+   },
+   {
+    "id": "C4",
+    "met": true,
+    "evidence": "Line 81: \"Не менее 5% целевой аудитории ..., для небольшой аудитории больше: при около 100 человек это около 20%\". Channel: \"рассылка по базе в цифровом канале (e-mail, сообщение в приложении или СМС со ссылкой) [допущение]\". Line 85: \"Допущение: гипотеза считается подтверждённой, если условие выполняется более чем у 50% ... Порог согласуйте до запуска. Результат сообщайте числом: «гипотеза 2 подтвердилась у X% аудитории»\". A table gives the confirmation rule for each hypothesis."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "Section heading \"2. Анкета, готовая к вставке\". It is the full questionnaire text: a respondent intro (\"Мы изучаем, как проходит рассмотрение заявок на кредит...\"), all 12 questions with answer options, and skip logic (\"(Если в вопросе 7 не «ни разу»)\"). The bank-name placeholder is unavoidable because the user gave no name. Caveat: researcher labels are mixed into the respondent text (see notable_errors)."
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "The answer cites no slides, webinars, lecturer, workbook pages, timestamps or «по курсу…». The only mention of the course is a disclaimer of non-course origin on line 104: \"Не из курса: порог подтверждения 50%; ...\". It names no location in the course, so the criterion is met as written. It is still flagged in notable_errors."
+   }
+  ],
+  "notable_errors": [
+   "The NPS item uses a non-standard scale: \"(1 — 2 — 3 — 4 — 5 — 6 — 7 — 8 — 9 — 10)\" and \"% детракторов (1–6 ...)\". The standard NPS scale is 0–10 with detractors 0–6, so the resulting score cannot be compared with standard NPS. Q12 also says \"компании\", while the rest of the questionnaire uses \"[название банка]\".",
+   "The footer claims content that is not in the answer. Line 104 lists \"предупреждение, что ответившие могут отличаться от не ответивших\" and \"NPS последним вопросом, чтобы он не влиял на ответы о фактах\" as included non-course additions. Neither appears in the body: grep finds \"не ответивш\" and \"влиял\" only on line 104. Line 81 says only \"Считаются полученные ответы, а не разосланные приглашения\", and line 9 gives no reason for placing NPS last.",
+   "The confirmation rule for hypothesis 3 does not match what the hypothesis says. The hypothesis is conditional (\"бросают заявку, если нет ответа три дня\"), but the table and the threshold of \"более чем у 50% целевой аудитории\" treat it as a share of all respondents (\"Вопрос 9 — «отозвал(а) или перестал(а) ждать», вопрос 10 — «через 3 дня» или позже, вопрос 11 — «решения не было»\"). More than half of all applicants abandoning after three days without a reply is implausible, so H3 would almost always be rejected even if the conditional effect is strong. The [вывод] on line 93 names the correct comparison (abandonment rate among those who waited 3+ days vs the others), but only as a side note, not as the decision rule.",
+   "Results from respondents are presented as results for the whole audience: \"«гипотеза 2 подтвердилась у X% аудитории»\" and \"у 50% целевой аудитории (отвечавших «да» в вопросе 1)\". The body has no non-response caveat, although the footer claims there is one.",
+   "Researcher labels are inside the text meant for respondents: \"*Гипотеза 1: не понимают, на каком этапе заявка*\", \"*Гипотеза 3: бросают заявку, если нет ответа три дня*\" and \"Блок 3. Гипотезы\". Pasted as is, these would show respondents the hypotheses and bias their answers.",
+   "The answer equates \"ответ\" in hypothesis 3 with a final decision (Q4 \"решение (одобрение или отказ)\", Q11 \"банк уже сообщил вам решение\"). Interim status messages, which may count as a \"ответ\" for the client, are left out of the H3 rule. This is a minor construct-validity gap.",
+   "The answer mentions a course the user never referred to (\"Не из курса: ...\"). This suggests the rest of the content comes from a course. It is a provenance leak, though not a location citation.",
+   "No arithmetic errors were found (20% of about 100 = about 20 responses). There are no opinion or future-intent questions except the NPS item, which is kept separate. No solutions are proposed before the problem is understood. Assumed answer options (stages, channels, threshold, distribution channel) are labeled as assumptions, not presented as fact."
+  ]
+ }
+}

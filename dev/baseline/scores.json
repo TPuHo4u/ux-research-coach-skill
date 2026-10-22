@@ -1,0 +1,295 @@
+{
+ "S1": {
+  "scenario": "S1 — Подготовка к глубинному интервью (baseline answer /Users/dmitrijkrasuk/Downloads/Project/ux-research-coach-skill/dev/baseline/S1.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": false,
+    "evidence": "Before the questions there is only a duration and format line: \"Длительность: 45-60 минут. Формат: полуструктурированное интервью.\" Recruiting and roles appear only at the end, after the guide: \"Лучше смешать причины прекращения: те, кто бросил на раннем шаге, в середине и перед отправкой\" and \"Если возможно, придите вдвоём: один ведёт, второй записывает\". The answer has no persona with attributes, no extreme user or internal expert, no respondent count, and no requirement to talk in the respondent's usual context.",
+    "failure_pattern": "There is no research plan before the guide. Focus/persona, the main plus extreme or expert respondents, the number of respondents (five or more) and the usual-context setting are all missing. Roles are optional and come after the questions."
+   },
+   {
+    "id": "C2",
+    "met": true,
+    "evidence": "The blocks run in the expected order: \"Вступление\" → \"Разогрев и контекст\" → \"Истоки: зачем понадобилась карта\" → \"Путь по заявке: восстановление шаг за шагом (15-20 минут)\" (\"Это ядро интервью\") → \"Момент остановки\" → \"Что было после\" → \"Идеальный опыт и пожелания\" (\"Сюда переходим в самом конце, когда клиент уже рассказал историю\") → \"Завершение\". Weakness: some problem questions are already mixed into the story blocks (Q13 \"что вызвало вопросы или неудобство?\", Q28)."
+   },
+   {
+    "id": "C3",
+    "met": false,
+    "evidence": "Hypothetical questions: Q22 \"Если бы вам нужно было назвать одну главную причину, что бы это было?\", Q28 \"Что должно было произойти, чтобы вы довели заявку до конца?\", Q32 \"Если бы вы могли изменить в процессе оформления одну вещь\". Opinion and ideal-state questions: Q33 \"Как, по-вашему, должно выглядеть идеальное оформление\", Q29 \"Насколько вы доверяете банку и приложению\". Closed check questions: Q11 \"Было ли это легко?\", Q31 \"Помогла ли вам информация в приложении принять решение\". Leading questions with ready-made options: Q16 \"уверенно, тревожно, раздражённо?\", Q21 \"(ошибка, обрыв связи, звонок, нехватка данных, нехватка времени)\", Q30 \"(переплата, долги, скрытые условия)\".",
+    "failure_pattern": "Main questions include hypotheticals («если бы…»), opinion and ideal-future questions, closed check questions and leading questions that suggest answers. The improvement questions form a full block of their own and are not marked as secondary."
+   },
+   {
+    "id": "C4",
+    "met": false,
+    "evidence": "Show-me is present: \"попросите открыть приложение и показать, где останавливались\". The probes are \"Расскажите подробнее\", \"Что было потом?\" and a single \"Почему это важно для вас?\". For capture, the answer only says \"второй записывает и подмечает невербальные реакции\".",
+    "failure_pattern": "There is no draw-the-path technique and no repeated «почему?». The answer never says to separate what is said from what is done and what is felt, and never says to record the respondent's emotional words."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "\"Люди плохо предсказывают своё поведение и плохо придумывают улучшения, но хорошо рассказывают, что с ними случилось. Улучшения вы выведете из историй сами.\""
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "There is no reference to slides, webinars, a lecturer, workbook pages, recording timestamps or «по курсу Сбер…» anywhere in the answer."
+   }
+  ],
+  "notable_errors": [
+   "Self-contradiction: under \"Чего избегать\" the answer forbids hypotheticals (\"Гипотетики: «Вы бы пользовались, если бы...?»\") and closed yes/no questions, yet the guide uses both (Q22, Q28, Q32 hypotheticals; Q11 \"Было ли это легко?\", Q17, Q24, Q27, Q31 closed).",
+   "Leading questions that offer ready-made answers, which the answer itself warns against: Q16 \"Как вы себя чувствовали на этих шагах: уверенно, тревожно, раздражённо?\", Q21 lists possible reasons for stopping, and Q30 presupposes fears: \"Что вас смущало или пугало в кредитной карте как продукте (переплата, долги, скрытые условия)?\"",
+   "Generalised habit questions instead of a specific case: Q4 \"Как вы обычно решаете, какой финансовый продукт взять?\" and the probe \"Как вы обычно поступаете в такой ситуации?\"",
+   "Treats interview counts as a measure of priority without any quantitative check: \"Количество совпадений между респондентами покажет приоритеты.\"",
+   "Moves toward solutions in the expected output: \"Список гипотез для улучшений, которые затем можно проверить прототипами или A/B-тестами\". There is no step to check prevalence with a survey first.",
+   "The suggested intro line \"Я не из команды разработки и не обижусь\" may be false if the interviewer is on the product team.",
+   "No sample size and no persona definition. Recruiting mixes respondents who stopped at different steps, and the guide gives no attributes for the target persona."
+  ]
+ },
+ "S5": {
+  "scenario": "S5 — Анкета для проверки гипотез (baseline answer /Users/dmitrijkrasuk/Downloads/Project/ux-research-coach-skill/dev/baseline/S5.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": false,
+    "evidence": "Purpose is stated only as \"готовая анкета под ваши три гипотезы\". The welcome text frames it as an improvement survey: \"Мы хотим сделать оформление кредита понятнее и удобнее\". On NPS: \"NPS измеряет общее отношение к банку, а не проблему со статусом заявки\", followed by \"сравнивайте NPS по сегментам (звонили / не звонили, довели заявку / бросили)... Так цифра станет полезной\". NPS is kept as a separate block with the standard wording and a 0-10 scale.",
+    "failure_pattern": "The answer never says the survey's job is to check whether the hypotheses hold and how widespread they are, as opposed to measuring satisfaction or loyalty. The NPS caveat is only partial. The answer then tells the user to cross-tab NPS by the hypothesis segments, which pushes NPS toward being used as diagnostic evidence about the status problem. The criterion asks for it to be kept apart from the hypotheses."
+   },
+   {
+    "id": "C2",
+    "met": false,
+    "evidence": "Block 1 is a screener: \"Когда вы в последний раз подавали заявку на кредит в нашем банке?\" with \"(завершить опрос)\". The next block is already a hypothesis block: \"Блок 2. Понимание этапа заявки (гипотеза 1)\", followed by \"Блок 3. Звонки в банк (гипотеза 2)\" and \"Блок 4. Ожидание и отказ от заявки (гипотеза 3)\".",
+    "failure_pattern": "The required block 2 is missing: a general block on experience in the problem area (did the problem happen, how often). The screener goes straight into per-hypothesis questions, so the prevalence and frequency of the problem are never measured on their own."
+   },
+   {
+    "id": "C3",
+    "met": false,
+    "evidence": "Q4 is a rating scale for hypothesis 1: \"Насколько вам было понятно, на каком этапе находится ваша заявка? (шкала 1-5...)\". Q6 is a set of Likert agreement statements: \"Насколько вы согласны с утверждениями?... Я знал(а), что нужно делать дальше\". Several closed questions have no «другое» option: Q2 (\"Чем закончилась ваша заявка?\"), Q9, Q11 and Q12. Q11's wait intervals skip a range: \"2-3 дня\" then \"Неделю\". On the positive side, \"часто/редко\" never appears and Q7 uses counts (\"Да, один раз / Да, два раза и больше / Нет\").",
+    "failure_pattern": "Hypothesis 1 is tested with 1-5 clarity scales and agree/disagree statements (acquiescence bias) instead of factual closed questions. «Другое» is missing from several closed questions. The frequency intervals are incomplete: the 4-6 day range, exactly where the 3-day threshold sits, is not covered."
+   },
+   {
+    "id": "C4",
+    "met": false,
+    "evidence": "\"Для устойчивых выводов по каждому сегменту нужно хотя бы 100-150 ответов. При отклике 5-10% разослать придётся несколько тысяч приглашений\". The channel is given: \"E-mail плюс SMS-напоминание через 2-3 дня\". There is no analysis section with a percentage per hypothesis.",
+    "failure_pattern": "The channel is present, but the sample is set as an absolute 100-150 responses per segment rather than at least 5% of the target audience; the \"5-10%\" is a response rate. There is no plan to report results as a concrete percentage per hypothesis and no confirmation threshold stated as an assumption."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "Includes a full welcome text, numbered questions with answer options, routing notes (\"*Если «Да»:*\") and a thank-you text: \"Спасибо за ваши ответы! Они помогут нам сделать оформление кредита проще и понятнее.\""
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "No references to slides, webinars, lecturer, workbook pages, recording timestamps or «по курсу Сбер…» anywhere in the answer."
+   }
+  ],
+  "notable_errors": [
+   "Opinion, hypothetical and solution-seeking questions in a hypothesis-testing survey: Q10 \"Что, по вашему мнению, помогло бы вам не звонить в банк?\", Q11 \"Сколько вы были готовы ждать ответа по заявке?\" and Q15 \"Что должно было произойти, чтобы вы довели заявку до конца?\". They ask for predictions and preferences instead of past behaviour.",
+   "Hypothesis 3 (abandon after 3 days without an answer) is never measured factually. No question asks how long the respondent actually waited before abandoning. Q11 asks about willingness to wait, and its options jump from \"2-3 дня\" to \"Неделю\", leaving the 4-6 day range that matters for the 3-day threshold uncovered.",
+   "Q7 is double-barreled and blurs hypothesis 2, which is about phone calls: \"Звонили ли вы в банк (или обращались в чат / отделение)\" merges calls with chat and branch visits.",
+   "Q6 uses agree/disagree statements (\"Я понимал(а), сколько времени займёт рассмотрение\"), which carry acquiescence bias and lead respondents toward agreeing.",
+   "The sampling segment mixes rejected and abandoning customers: \"бросили заявку или получили отказ\". Rejected applicants did not abandon, so including them contaminates the test of hypothesis 3.",
+   "Screening and sampling disagree: the screener keeps respondents up to 6 months back (\"Больше 6 месяцев назад (завершить опрос)\"), while the sampling advice says \"Берите клиентов, которые подавали заявку за последние 1-3 месяца\".",
+   "Q1 has overlapping intervals: \"1-3 месяца назад\" and \"3-6 месяцев назад\" share the 3-month boundary.",
+   "Questionable NPS ordering claim: \"Здесь он не искажает ответы на предыдущие вопросы, потому что клиент уже подумал о своём опыте\". Placing NPS after problem-focused questions primes and biases the NPS score itself, so it will not be comparable to the bank's standard NPS. The answer does not mention this.",
+   "The NPS arithmetic is correct (\"Доля промоутеров (9-10) минус доля критиков (0-6)\"). No arithmetic error."
+  ]
+ },
+ "S3": {
+  "scenario": "S3 — CJM по заметкам интервью (baseline answer /Users/dmitrijkrasuk/Downloads/Project/ux-research-coach-skill/dev/baseline/S3.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": false,
+    "evidence": "Scenario is named: \"Сценарий: от первого интереса к банку до первого рабочего использования счёта (включая эквайринг).\" The answer notices the mixed channels only in the limitations section: \"Разные каналы (сайт и офис, отделение, приложение): часть различий может объясняться каналом, а не людьми. Канал нужно учитывать при следующих интервью.\" It never defines a persona with attributes; it only says \"малым бизнесом\" and lists the three respondents.",
+    "failure_pattern": "There is no persona with attributes. The mixed site, app and branch paths are put into one map with a column per respondent and are not separated or resolved. The answer only mentions the mixing as a caveat and defers it to future interviews."
+   },
+   {
+    "id": "C2",
+    "met": false,
+    "evidence": "Stages: \"1. Поиск и выбор банка 2. Подача заявки 3. Ожидание и сбор документов 4. Открытие счёта (встреча или отделение) 5. Подключение эквайринга\". Touchpoints cover several channels (\"Знакомый, сайт банка\", \"Телефон, менеджер\", \"Почта, менеджер\", \"Мобильное приложение\"). Nothing names the periods before, during and after service, and there is no expectation or impression layer.",
+    "failure_pattern": "The answer uses a five-step process instead of the three periods: before service (expectation), service (actual experience) and after service (impression). It does not capture what clients expected beforehand or their impression afterwards."
+   },
+   {
+    "id": "C3",
+    "met": true,
+    "evidence": "Each stage table has rows \"Действия\", \"Точки контакта\" and \"Эмоции\" for each person. There is an emotion curve per stage (\"Шкала: +2 очень хорошо ... −2 очень плохо\"). The three failures are recorded as pains and listed first under \"Ключевые проблемы\": \"Эквайринг у Ани: «никто не знает, кто за это отвечает»\", \"У Ани повторно запросили те же документы\", \"Два дня тишины у Ани\". Section 4 explains why the average misleads: \"средняя оценка 3 из 5 скрывает форму пути\" and \"Среднее по трём людям не описывает ни одного из них. Для приоритизации важнее смотреть на конкретные места падения, чем на общий балл.\"",
+    "failure_pattern": ""
+   },
+   {
+    "id": "C4",
+    "met": false,
+    "evidence": "The customer pain row of the CJM for Ира at stage 3 reads: \"Сбой загрузки; статус в CRM не обновился; срок 5 дней вместо регламентного 1 дня\". The problem list adds \"Регламент не совпадает с реальностью. По регламенту 1 день, у Иры 5\" and \"у Иры CRM не показала актуальный статус\". The solutions table adds \"обязательная синхронизация CRM\".",
+    "failure_pattern": "Internal systems (CRM) and regulations (the one-day rule) sit inside the CJM pain cells. They are not moved to a Service Blueprint or a parking list, and the answer never mentions a blueprint."
+   },
+   {
+    "id": "C5",
+    "met": false,
+    "evidence": "Section 7 \"Возможности для улучшения\" is a priority table of solutions (\"Назначить единого менеджера-владельца клиента\", \"Единое хранилище документов\", \"Калькулятор или простое сравнение тарифов\", \"Запись в отделение на время или онлайн-очередь\"). Next step 4 reads: \"Начать с трёх высоких приоритетов: единый владелец клиента, единое хранилище документов, прозрачный статус заявки.\" The other next steps are \"Добрать ещё 5–7 интервью\" and \"Сопоставить выводы с данными банка\".",
+    "failure_pattern": "The answer jumps to prioritized solutions and recommends starting to implement them. It does not set finding the causes of the failure points as the next step, and it mentions neither internal experts nor a Service Blueprint. It also never calls the map a working draft to update with new interviews."
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "The answer never mentions course slides, webinars, a lecturer, workbook pages, timestamps or «по курсу Сбер…».",
+    "failure_pattern": ""
+   }
+  ],
+  "notable_errors": [
+   "Internal systems and regulations appear in the customer-facing CJM. Ира's pain cell says \"статус в CRM не обновился; срок 5 дней вместо регламентного 1 дня\", and the client knew this only because \"как потом сказал менеджер\".",
+   "Solutions are offered before the causes are understood: the section 7 priority table and \"Начать с трёх высоких приоритетов: единый владелец клиента, единое хранилище документов, прозрачный статус заявки.\" These rest on three interviews and on causes the answer itself says still need checking.",
+   "Unverified causes are presented as facts in the map. Аня's pain cell states \"данные не передаются между этапами\", and section 5 groups pains \"по причинам\" (\"Нет сквозного владельца клиента\") although the notes give no causal evidence.",
+   "Many emotions in the stage tables are not in the notes and are not marked as inferred in those tables: \"Доверие, спокойствие\" (Аня, choice), \"Скука, терпение\" (Олег, queue), \"Усталость, скепсис\" (Ира, opening), \"Сначала нейтрально, затем тревога\" (Ира, application). Only the curve and a limitation bullet admit that the emotions are interpreted.",
+   "The answer contradicts its own curve. The text says Олег had \"ровный путь с одной просадкой на этапе выбора тарифов\", but the curve gives him −1 at Выбор, −1 at Заявка and −1 at Ожидание, which is three dips.",
+   "Different paths are forced into one stage. Олег's 40-minute in-branch queue is placed under \"Ожидание и сбор документов\" together with Аня's two days of silence after an online application and Ира's emailing of documents. These are different channels and different kinds of waiting.",
+   "Some touchpoints are not supported by the notes: \"сайт банка\" for Аня at the choice stage (she chose by recommendation) and \"Менеджер, приложение\" for Ира at account opening."
+  ]
+ },
+ "S2": {
+  "scenario": "S2 — Разбор расшифровки: отчёт и инсайты (baseline answer S2.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": false,
+    "evidence": "Хронология table has only columns 'Шаг | Что произошло | Состояние клиентки', steps 1 'приложение само предлагает перевыпуск' to 8 'сделала скриншот реквизитов'. No needs, people involved or context per step.",
+    "failure_pattern": "The steps from the app offer to using the card are covered, but each step has only actions and emotion. Needs, people involved (hotline operator, branch employee, personal manager) and context are not given per touchpoint; they come up only in passing in the action text."
+   },
+   {
+    "id": "C2",
+    "met": false,
+    "evidence": "Contradiction flagged in Insight 7: 'Интервью начинается с фразы «в целом всё нормально было», а затем выясняется, что была сильная злость'. But step 1 records the spoken claim as the feeling: 'Нейтрально или положительно: «всё нормально»'.",
+    "failure_pattern": "No explicit split into says vs does vs feels. The table mixes events and states, and step 1 takes her statement 'всё нормально' as her emotional state. Only the contradiction part is met, so the criterion is partial."
+   },
+   {
+    "id": "C3",
+    "met": true,
+    "evidence": "'эмоция («была в бешенстве») закрепилась'; 'Фраза «Теперь я статусу не верю» ключевая'; quote block 'Что я потратила полдня впустую.'; 'никто не извинился, просто \"не привезли\"'.",
+    "failure_pattern": ""
+   },
+   {
+    "id": "C4",
+    "met": false,
+    "evidence": "Insight 3 is a real discovery: 'больше не принимает решение по статусу в приложении... вынуждена перепроверять его вручную'. The others are not: Insight 1 'Статус «готово к выдаче» не отражает реальность' plus a system-side cause hypothesis; Insight 2 'Стоимость ошибки статуса для клиента выше, чем кажется'; Insight 6 'Неприятнее самой ошибки оказалось отсутствие извинения'; Insight 7 is a methodological remark.",
+    "failure_pattern": "Most 'insights' restate a pain or fact (status wrong, time wasted, no apology), give a guess about the bank's internal cause, or make a remark about research method. Only Insights 3 to 5 explain why she behaves the way she does. So the insights as a set do not meet the criterion."
+   },
+   {
+    "id": "C5",
+    "met": false,
+    "evidence": "'Это одно интервью с одной клиенткой... все инсайты считаются гипотезами для проверки'; section 8 'Что уточнить в следующих интервью'; section 6 'Метрики, которые стоит проверить в данных банка'. But section 5 'Возможные направления улучшений (гипотезы, не выводы)' lists five concrete solutions ('Разделить статусы', 'Сценарий признания ошибки... компенсация времени', etc.).",
+    "failure_pattern": "Solutions are presented in detail as a main section, labelled only 'гипотезы, не выводы' and not parked until the problem is understood. The next step is not stated as a sequence (more interviews with the same persona, then a quantitative check of how widespread it is). The persona is never defined, and the follow-up questions target generic 'другие клиенты'."
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "No mention of slides, webinars, lecturer, workbook, course timestamps or 'по курсу Сбер' anywhere in the answer.",
+    "failure_pattern": ""
+   }
+  ],
+  "notable_errors": [
+   "Solutions come before the cause is understood. Section 7 says 'Причины расхождения статуса и реальности... в интервью не выяснены', yet section 5 already prescribes fixes such as 'Статус «готово к выдаче» показывать только после подтверждения' and compensation of time.",
+   "She is misquoted as speaking about other clients. 'У клиентов без такого контакта путь, по её словам, был бы длиннее', but she said only about herself: 'Без неё я бы, наверное, ещё раз три звонила'. The extrapolation 'неравный доступ к обслуживанию' is the analyst's own and is presented as an insight.",
+   "An inference is stated as fact. 'горячая линия (полчаса ожидания, результата нет)' and 'Горячая линия не решила задачу': the transcript says only 'полчаса висела' and does not say there was no result.",
+   "Insight 6's heading 'Неприятнее самой ошибки оказалось отсутствие извинения' ranks the missing apology above the failure. That is unsupported: she named the lost half-day first. The insight's own body contradicts the heading: 'не меньше, чем сам сбой'.",
+   "A claim not in the data: 'Прозрачный срок в сообщении («5 рабочих дней») сам по себе клиентку устроил'. She never said the stated term satisfied her.",
+   "Speculation about the bank and about her behaviour: 'Банк, вероятнее всего, считает это мелким сбоем логистики, а для клиентки это событие, которое она помнит и пересказывает'. Nothing in the transcript says she retells it.",
+   "The step 1 emotion takes the overall verbal summary ('всё нормально') as the feeling at that moment. That is the said-vs-felt confusion the answer itself warns about in Insight 7.",
+   "Insight 7's heading 'Общая оценка занижена по сравнению с реальным опытом' gets the direction wrong. Her overall rating ('нормально') is more positive than her actual experience, so the rating is inflated (or the problem is understated), not 'занижена'.",
+   "The questions proposed for the next interviews break experience-based interviewing. One is hypothetical/opinion: 'Какие компенсации и действия сотрудника отделения сочли бы достаточными?'. Others are closed yes/no: 'Сталкивались ли они с ситуацией «статус есть, карты нет»?', 'звонят ли в отделение заранее?'."
+  ]
+ },
+ "S6": {
+  "scenario": "S6 — Индексы и «как мы можем» (baseline answer /Users/dmitrijkrasuk/Downloads/Project/ux-research-coach-skill/dev/baseline/S6.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": true,
+    "evidence": "\"NPS = 60% − 16% = +44.\"; \"Пассивные (7–8) в расчёт не входят: они не «довольные», а нейтральные.\"; \"84% — это не NPS\"; \"Цифра 84% получается, если сложить промоутеров и пассивных (42 из 50)\". It reports the result in points (+44) rather than as 44%, which is the correct convention, so this does not count as a failure."
+   },
+   {
+    "id": "C2",
+    "met": false,
+    "evidence": "NPS is characterised: \"NPS показывает готовность рекомендовать, а не довольство конкретным визитом. Это разные вещи.\" The answer only says \"NPS и CSI не противоречат друг другу, они измеряют разное\" and never says what CSI is.",
+    "failure_pattern": "Only half of the distinction is made. NPS is defined as willingness to recommend, but CSI is never defined as satisfaction across service factors, or as an index of factor ratings. The answer does not confuse the two metrics (\"Из двух метрик пока нельзя заключить, что именно скорость тянет вниз NPS\"), so the failure is a missing CSI definition, not a mix-up."
+   },
+   {
+    "id": "C3",
+    "met": false,
+    "evidence": "Present: a focus on speed (\"Главный сигнал ... в просевшей скорости\"; \"где оценка скорости падает сильнее всего\") and re-measurement (\"Измерить результат в следующем квартале тем же способом\"). Partial: \"Назначить ответственного и срок\" names an owner and a deadline but gives no dated plan. Closest thing to cause research: \"Поработать с 8 критиками ... выяснить причину\", \"Почитать комментарии пассивных\".",
+    "failure_pattern": "Several required parts are missing: (1) nothing about not aiming at 100% on the metric; (2) no in-depth interviews or observation of the service to find the cause, only calls to the 8 critics, reading comments, slicing the data and checking SLA/queue data; (3) no step that identifies the obstacles clients hit; (4) \"ответственного и срок\" is not a plan with dates."
+   },
+   {
+    "id": "C4",
+    "met": false,
+    "evidence": "Missing: the text has no problem statement and no «Как мы можем…» question. The answer stays at the metric level throughout (\"Главный сигнал не в этой цифре, а в просевшей скорости и в 8 критиках\").",
+    "failure_pattern": "The answer never moves from the metric to the client's problem. There is no problem statement naming a person and a consequence (who waits, in what situation, what it costs them), and no «Как мы можем…» question built on that problem. It goes from the metric straight to operational actions."
+   },
+   {
+    "id": "C5",
+    "met": true,
+    "evidence": "It breaks the score into groups: a table with \"Промоутеры (9–10) | 30 | 60%\", \"Пассивные (7–8) | 12 | 24%\", \"Критики (1–6) | 8 | 16%\", and separate steps for the 8 critics and the 12 passives. It also covers change over time: \"Главное, чтобы динамику сравнивали по одной методике\"; \"посмотреть, сдвинулись ли NPS, оценка скорости и доля критиков\". The point that the same NPS can hide a different group mix is not stated outright. It is the reason behind the criterion, and the answer does the behaviour itself, so I count it as met (unlike C2, where the parenthetical defines the thing being distinguished)."
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "No course citations appear anywhere: no slides, webinars, lecturer, workbook pages, recording timestamps or «по курсу Сбер…»."
+   }
+  ],
+  "notable_errors": [
+   "Offers solutions before the problem is understood. Step 6 names fixes (\"пересмотреть расписание смен в пиковые часы, добавить информирование о сроках, упростить частый сценарий\") with no client research behind them. Calling them \"гипотезы\" does not change that: they are operational fixes chosen before any interview or observation.",
+   "Gives a benchmark with no reference group: \"+44 обычно считают хорошим\". NPS norms vary by industry, country and survey method, and the answer states this as fact with no source.",
+   "Leans on quantitative and operational checks (\"Разрезать данные\", \"Сравнить оценку скорости с объективными данными: время ожидания, время обработки, очереди, SLA\") instead of qualitative research into the client's experience. No interviews or observation are proposed to understand why speed is perceived as worse.",
+   "Minor wording slip: \"а могла вырасти ожидание клиентов\" should be \"ожидания\". The margin-of-error claim is correct: at n=50 the standard error is about 10.6 points, so \"±20 пунктов\" holds, and \"+25…+65\" is a harmless rounding."
+  ]
+ },
+ "S4": {
+  "scenario": "S4 — Service Blueprint для точки провала (baseline answer /Users/dmitrijkrasuk/Downloads/Project/ux-research-coach-skill/dev/baseline/S4.md)",
+  "criteria": [
+   {
+    "id": "C1",
+    "met": false,
+    "evidence": "Main layer order is correct: «Физические свидетельства» / «Действия клиента» → «Линия взаимодействия» → «Фронтстейдж (менеджер)» → «Линия видимости» → «Бэкстейдж» → «Передачи между подразделениями» → «Процессы поддержки». The support row holds only IT systems: «CRM / система заявок», «Система документооборота», «Скоринг», «Календарь комитета». The «Эмоции клиента» row is the last row, below the back office.",
+    "failure_pattern": "The support-process layer has no training, instructions or scripts, even though they matter here: the fail point is a manager taking status calls with no information. IT systems sit in the support row, not in the back office. Part of the client layer, the client emotions row, sits at the very bottom of the table, below the back office, so the layers do not run top to bottom as required."
+   },
+   {
+    "id": "C2",
+    "met": false,
+    "evidence": "Columns: «2. Приём и первичная проверка комплекта», «3. Андеррайтинг», «5. Решение (кредитный комитет / лимит полномочий)». The client row under them reads «Ждёт…», «Ждёт, **звонит менеджеру**», «Ждёт, снова звонит».",
+    "failure_pattern": "The columns are the bank's internal stages (intake check, underwriting, credit committee), not the client's steps. The client's defining action in this scenario, calling the manager about status, has no column of its own and is folded into the internal-stage columns. Rows are correctly not grouped by department, since there is a single backstage row plus a hand-offs row, but the columns fail the criterion."
+   },
+   {
+    "id": "C3",
+    "met": false,
+    "evidence": "«Я не видел ваш реальный процесс, поэтому blueprint построен по типовой схеме кредитования»; section 5: «уточнить у андеррайтинга и методологов», «интервью с андеррайтерами», «Наблюдение за работой 3-5 менеджеров, shadowing»; regulation vs fact rows «Время: регламент» / «Время: факт **[нужны данные]**»; «пока не проверены определения». Section 7: «Если пришлёте регламент и описание этапов … я переделаю blueprint уже по вашему процессу».",
+    "failure_pattern": "The answer never says a blueprint is built from interviews or observation with internal experts. It builds from a generic lending template, and its main next step is a data export («получить 30-50 реальных заявок с временными метками»). It does name people to ask (underwriters, methodologists, managers), and the table compares the 3 days with actual time. But section 7 offers to rebuild the blueprint from the regulation document, which treats the regulation as the description of the process. Two of the three parts are met; the first is not."
+   },
+   {
+    "id": "C4",
+    "met": false,
+    "evidence": "The main table marks some cells «[гипотеза: очередь на этом шаге]», «[гипотеза: параллельные согласования идут последовательно]», «[гипотеза: ждут заседания]». The fail-point table states findings without markers: F3 «Нет единого владельца заявки «сквозь» все этапы», F4 «Запрос документов идёт не сразу, а пачками, либо повторно», F5 «Ожидание комитета или лимита полномочий не входит в регламент», F7 «Решение принято, а клиент узнаёт позже». It also states «Это главная структурная проблема» and «Менеджер - заложник процесса».",
+    "failure_pattern": "Possible delay points (hand-offs, missing owner, batched document requests, committee wait, late notification) are stated as findings in the fail-point table and section 3. They should be hypotheses to check. The preamble says unmarked items are known, yet many guesses carry no marker: «СБ ↔ юристы ↔ оценщик залога», «запросы в БКИ/ФНС», «Календарь комитета», the whole «Эмоции клиента» row, and the calendar-day reading of «10 дней»."
+   },
+   {
+    "id": "C5",
+    "met": false,
+    "evidence": "Section 4 «Идеи улучшений (по возрастанию сложности)» has quick, medium and systemic solutions («Разбить статус … на видимые клиенту подстатусы», «Назначить владельца заявки на весь путь (case owner)», «Автоматизация простых случаев»). Section 6 is «Метрики для отслеживания эффекта». Section 3 states «Это точка, в которую стоит вкладываться в первую очередь». All of this comes before section 5 «Что нужно проверить, прежде чем доверять этому blueprint».",
+    "failure_pattern": "The answer jumps to solutions and effect metrics before the delay points are verified, and admits the blueprint cannot be trusted until then. A filled draft table is present, but it does not offset the solution section."
+   },
+   {
+    "id": "CX",
+    "met": true,
+    "evidence": "The answer never refers to the course, slides, webinars, a lecturer, workbook pages, recording timestamps or «по курсу Сбер»."
+   }
+  ],
+  "notable_errors": [
+   "Working-day arithmetic: «10 календарных дней - это примерно 6-7 рабочих, то есть реальный срок вдвое больше регламентного». Ten consecutive calendar days contain 6–8 working days, most often 8. The user wrote «до 10 дней» without saying calendar days, so the calendar reading, and the «вдвое больше» built on it, is an unmarked assumption.",
+   "Metric mislabel: «Удовлетворённость сроками и прозрачностью (CES или короткий опрос после решения)». CES (Customer Effort Score) measures effort, not satisfaction.",
+   "Solutions before the problem is understood: section 4 «Идеи улучшений» and section 6 metrics come before section 5 «Что нужно проверить, прежде чем доверять этому blueprint».",
+   "Hypotheses presented as findings: fail points F3–F7 and «Один статус «на рассмотрении» скрывает 4 разных этапа с разными владельцами. Это главная структурная проблема» are stated as facts with no data.",
+   "Inference labelled as observation: «**Ключевое наблюдение:** … Если SLA считается только внутри андеррайтинга…» is a conjecture, not an observation.",
+   "Invented client emotions with no data and no assumption marker: «Надежда», «Тревога, раздражение», «Либо облегчение, либо уже ушёл к конкуренту».",
+   "Regulation treated as the process description: «Если пришлёте регламент и описание этапов … я переделаю blueprint уже по вашему процессу», where actual practice should be learned from internal experts.",
+   "Columns are internal stages instead of the client's steps («Андеррайтинг», «Решение (кредитный комитет / лимит полномочий)»), so the client row is mostly «Ждёт»."
+  ]
+ }
+}
